@@ -31,21 +31,22 @@ header{
     display: flex;
     align-items: center;
     justify-content:center;
+    margin-top: 10px;
 
 }
 
 .logo a img{
-    width: 200px;
+    width: 150px;
     margin: 0;
     padding: 0;
 }
 
 .logo .txt-logo{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     color: #fff;
     margin-bottom: 10px;
-    margin-left: -50px;
+    margin-left: -30px;
 }
 
 .navbar ul{
@@ -56,6 +57,7 @@ header{
 
 .navbar ul li a{
     color: #fff;
+    font-weight: bold;
     font-size: 20px;
     cursor: pointer;
     transition: .2s ease-in-out;
@@ -98,6 +100,8 @@ header{
 .txt-header h1{
     color: #fff;
     font-size: 80px;
+    font-family: "Monoton", sans-serif;
+    font-weight: lighter
 }
 .container-header .img-bet img{
     width: 300px;
