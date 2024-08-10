@@ -61,10 +61,13 @@ header{
     font-size: 20px;
     cursor: pointer;
     transition: .2s ease-in-out;
+    padding: 7px 10px;
 }
 
 .navbar ul li a:hover{
-    color: #741111f3;
+    background-color: #741111f3;
+    padding: 7px 10px;
+    border-radius: 5px;
 }
 
 .container-header{
@@ -77,8 +80,9 @@ header{
 }
 
 .txt-header{
-    margin-right: 100px;
+    margin-right: 200px;
     color: #fff;
+    margin-bottom: 80px;
 }
 
 .txt-header button{
@@ -102,6 +106,12 @@ header{
     font-size: 80px;
     font-family: "Monoton", sans-serif;
     font-weight: lighter
+}
+
+.txt-header p{
+    font-size: 18px;
+    
+    font-family: "Rubik Mono One", monospace;
 }
 .container-header .img-bet img{
     width: 300px;
